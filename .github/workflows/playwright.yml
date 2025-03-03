@@ -9,7 +9,7 @@ on:
 
 env:
   CI: true
-  WORKERS: 2
+  WORKERS: 1
 
 jobs:
   test:
