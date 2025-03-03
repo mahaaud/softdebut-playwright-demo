@@ -9,7 +9,8 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@types/node": "^22.13.1"
+    "@types/node": "^22.13.1",
+    "playwright-ctrf-json-reporter": "^0.0.18"
   },
   "dependencies": {
     "dotenv": "^16.4.7"
