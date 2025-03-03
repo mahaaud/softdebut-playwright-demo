@@ -29,6 +29,11 @@ test.describe('Sauce Demo', () => {
     await page.locator('[data-test="add-to-cart-sauce-labs-backpack"]').click();
     await page.locator('[data-test="shopping-cart-link"]').click();
 
+    test.info().annotations.push({
+        type: "Message",
+        description: "นี่คือข้อความทดสอบ"
+    });
+
     // Assert
     await expect(page.locator('[data-test="item-4-title-link"]')).toHaveText('Sauce Labs Backpack');
   });
